@@ -1,3 +1,37 @@
+# 🚀 GitHub to Microsoft Azure Pipeline Migration
+
+This repository demonstrates the complete migration of CI/CD pipelines from GitHub Actions to Microsoft Azure Pipelines for all microservices in the Voting App. The migration includes:
+
+- Azure pipeline YAML files for each microservice (`vote`, `result`, `worker`)
+- Automated build and push to Azure Container Registry (ACR)
+- Successful execution of all pipeline stages
+
+## Azure Pipeline YAML Files
+
+- `azure-pipelines-vote.yml`
+- `azure-pipelines-result.yml`
+- `azure-pipelines-worker.yml`
+
+## Pipeline Success Screenshots
+
+Below are screenshots showcasing the successful execution of the Azure pipelines for each microservice:
+
+### All Pipelines Success
+
+![All Pipelines Success](assets/All-Three-Pipeline-Success.png)
+
+### Build & Push: Worker Microservice
+
+![Worker Pipeline Success](assets/Build-Push-Stage-For-Worker-Microservise-Success.png)
+
+### Build & Push: Vote Microservice
+
+![Vote Pipeline Success](assets/Build-Push-Stage-For-Vote-Microservise-Success.png)
+
+### Build & Push: Result Microservice
+
+![Result Pipeline Success](assets/Build-Push-Stage-For-resultMicroservise-Success.png)
+
 # Example Voting App
 
 A simple distributed application running across multiple Docker containers.
